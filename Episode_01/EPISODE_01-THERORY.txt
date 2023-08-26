@@ -1,0 +1,104 @@
+                          ASSIGNMENT-01
+
+Q1. WHAT IS EMMET ?
+
+“Emmet is a plug in for many popular text editors which greatly improves HTML & CSS workflow:”
+
+And Emmet does fulfill what they promise, you can use short expressions to generate HTML markup, CSS.
+
+The general way to write Emmet abbreviation is: tagName[series of expressions]
+
+1. Generating HTML Skeleton
+
+Just type ‘!` in the editor, it will show a pop up with the content that will be generated,
+ press enter and there you have your HTML skeleton 
+
+2. 2. Elements with text content inside them
+
+If you want to generate a div with text content inside them
+
+div{This is a div}
+
+3.3. Nested elements
+
+To generate nested we will use ‘>’ operator
+
+ul>li
+ul>li*3>a
+ul>li{$}*3
+ul>li{$@10}*5
+
+4.4. What about classes and Id
+
+div#main.container.responsive
+you can specify Id by using ‘#’ and classes by using ‘.’
+
+5.6. Generating Siblings.
+
+Let’s say you want to have a header tag, div tag, footer tag. What would you do?
+
+These are not nested so you cant use ‘>’
+
+To generate sibling use ‘+’ operator
+
+header+div+footer
+
+
+Q2. What is the difference between a Library and Framework?
+
+Software frameworks are collections of pre-integrated and predesigned code modules that facilitate software development. Frameworks make developing software fast, efficient, and error-free. On the other hand, a software library is a collection of software that is accessible to all users. Frameworks can be used to develop different types of applications or systems. Some frameworks focus on specific programming languages such as Java, C++, or Python. Frameworks are an innovative concept that has revolutionized the field of programming. With framework, you only need to code specific parts of a framework once- it’s ready for use and remains updated over time. Developers use frameworks whenever possible because they save time and energy. In this article we will see Framework Vs. Library.
+
+A framework is like a foundation for developers to build applications for a particular platform. It contains reusable code written to perform common tasks, with code provided by the custom function developer. Frameworks can contain defined and undefined objects and functions that developers can use to build their applications. This allows you to add significant functionality to your system using existing code around your structure.
+
+Frameworks provide a standard set of tools and conventions that developers can use to build and manage the various components of an application, such as data storage, user interface, and business logic. 
+
+Examples of Framework
+Popular web frameworks include:
+
+Django – An open-source Python framework, Django is known for being fast, secure and maintainable. Django uses a “batteries included” approach where it provides many features out of the box.
+
+Ruby on Rails – A Ruby-based framework, Rails provides default structures for a database, web pages, and web applications. It emphasizes convention over configuration, making common development tasks easier.
+Laravel – A PHP framework, Laravel aims to make development simple and enjoyable. It provides tools and conventions to make coding PHP fun and productive. Laravel focuses on elegant, expressive syntax.
+React – A JavaScript framework, React makes it easier to create interactive UIs. It uses a component-based approach where you break the UI into independent, reusable pieces. React focuses on view layer functionality.
+
+Why do we use Frameworks?
+This framework allows developers to work efficiently on any project (using the framework is not mandatory, it’s just a simple add-on feature) and helps developers achieve their goals smoothly.
+This allows developers to easily work with any (complex) programming language
+Flexible and scalable
+Frameworks make it easy to integrate almost anything using built-in APIs
+Frameworks provide higher security and help reduce costs
+Developers can call libraries to use components, classes, and methods to perform specific tasks. However, the framework already provides code to perform common tasks and uses code provided by the custom function developer.
+
+
+What is a Library?
+A library is a collection of pre-written code that can be used to perform common tasks or add specific functionality to a program. Libraries are often written in a specific programming language and are designed to be easily reusable and modular. So developers don’t have to write code to perform a specific function because the library already contains the code for the specific function. Standard libraries are available for most programming languages, but programmers can also create their own custom libraries.
+
+Explore more- Free JavaScript Courses Online
+
+Examples of Library
+For natural language processing
+NLTK (Python)
+spaCy (Python)
+CoreNLP (Java)
+For data manipulation and analysis
+NumPy (Python)
+Pandas (Python)
+Scikit-learn (Python)
+For machine learning
+scikit-learn (Python)
+Keras (Python)
+TensorFlow (Python)
+For web development
+jQuery (JavaScript)
+Bootstrap (HTML, CSS, JavaScript)
+React (JavaScript)
+For image processing
+OpenCV (C++, Python)
+Pillow (Python)
+Magick++ (C++)
+Why do we use Libraries?
+Reusability: Libraries provide pre-written, tested, and debugged code that can be reused across multiple projects, saving developers time and effort.
+Consistency: Libraries provide a consistent and well-documented interface, making it easier for developers to integrate them into their projects and for other developers to understand and maintain the code.
+Community support: Popular libraries are often maintained and updated by a community of developers, ensuring that they are up-to-date with the latest technologies and standards.
+Compatibility: Libraries often have built-in compatibility with other popular libraries or frameworks, making it easy for developers to add new features or functionality to their projects.
+Specialized functionality: Libraries often provide specialized functionality that can be difficult or time-consuming to implement from scratch, such as complex data structures, mathematical algorithms, or graphical user interface element
