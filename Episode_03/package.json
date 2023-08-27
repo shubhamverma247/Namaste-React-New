@@ -1,7 +1,7 @@
 {
-  "name": "episode-02",
+  "name": "episode-03",
   "version": "1.0.0",
-  "description": "This is episode 2 shubham verma",
+  "description": "This is episode 3 shubham verma",
  
   "scripts": {
     "start":"parcel index.html",
