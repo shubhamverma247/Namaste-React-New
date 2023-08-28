@@ -1,0 +1,50 @@
+1. Is JSX mandatory for React?
+=> JSX is not a requirement for using React. Using React without JSX is especially convenient when you don't want to set up compilation in your build environment. 
+Each JSX element is just syntactic sugar for calling React.
+
+2.Is ES6 mandatory for React?
+=>If you don't use ES6 yet, 
+you may use the create-react-class module instead: 
+var createReactClass = require('create-react-class'); 
+var Greeting = createReactClass({ render: function() { return <h1>Hello, {this.props.name}</h1>; } }); 
+The API of ES6 classes is similar to createReactClass() with a few exceptions.
+
+3.How can i write comment on Jsx?
+=>If you want to comment something in JSX you need to use JavaScript comments inside of Curly braces like {/*comment here*/}. It is a regular /* Block Comments */ ,
+ but need to be wrapped in curly braces.
+
+ 4. What is <React.Fragment></React.Fragment> and <></>?
+ =>React Fragments allow you to wrap or group multiple elements without adding an extra node to the DOM. 
+ This can be useful when rendering multiple child elements/components in a single parent component.
+
+5.What is virtual DOM?
+=>The virtual DOM is the abstraction of the real DOM.
+In other words, it is the abstraction of an abstraction. A virtual DOM object is the same as a real DOM object, 
+except that it is a lightweight copy. This means that it cannot manipulate on-screen elements.
+
+6.What is reconciliation in React?
+=> The “reconciliation” algorithm in React is how the decision to re-render the component is made.
+ In the browser, DOM manipulation is expensive and time consuming, both in mounting and unmounting. 
+ Part of what makes React very performant is its reconciliation algorithm.
+
+7.What is React Fiber?
+=>React fiber is a complete rewrite of react that fixes a few long-standing issues and offers incredible and offers opportunities heading into the future.
+ Goals of React Fiber: Fiber focuses on animations and responsiveness.
+ It has the ability to split work into chunks and prioritize tasks.
+
+8.Why we need keys in React? When do we need keys in react?
+=> Keys help React identify which items have changed (added/removed/re-ordered).
+ To give a unique identity to every element inside the array, a key is required.
+
+9. Can we use index as keys in react?
+=>React recommends that you do not use indexes as keys, 
+since it could impact performance negatively and could lead to some unstable component behaviour.
+
+10.What is props in react ? ways to?
+=>Props are used to store data that can be accessed by the children of a React component. 
+They are part of the concept of reusability. 
+Props take the place of class attributes and allow you to create consistent interfaces across the component hierarchy.
+
+11.What is a Config driven UI?
+=>In a configuration-driven UI, the layout, styles, and other properties of UI elements are defined in a configuration file or database, 
+which can be easily modified without requiring changes to the codebase.
