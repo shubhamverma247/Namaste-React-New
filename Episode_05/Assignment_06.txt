@@ -1,0 +1,53 @@
+1. What is difference between named export, Default export and * as
+export ?
+
+Answer:
+Named Exports: Named exports are used to export different variables
+or functions from a single file. When we import the named exports in a
+different files they are imported using {}.
+// ModuleA
+export const foo = 42;
+export const bar = 'hello';
+// ModuleB.js
+import { foo, bar } from './ModuleA';
+Default Export: Default export is used for exporting a single function or
+variable as default from the Component/file. We can only have one
+default export per file. For importing the default exported thing in other
+files, we can directly import without using {}.
+// ModuleA.js
+const mainFeature = 'important feature';
+export default mainFeature;
+// ModuleB.js import myFeature from './ModuleA';
+* as Export: This is used when you want to import all exports from a
+module and group them under a single namespace. This is particularly
+useful when dealing with a module that exports a lot of values.
+// ModuleA.js
+export const foo = 42;
+export const bar = 'hello';
+// ModuleB.js
+import * as myModule from './ModuleA';
+// Now you can access the exports as myModule.foo and
+myModule.bar
+
+2. What is the importance of config.js file ?
+
+Answer: config.js / consts.js file contains all the variables storing the hardcoded
+values such as URLs, texts, etc. All the constant files are stored in the config.js
+file and the standard way to define the consts are using capital alphabets. E.g.
+TEST_URL, PROFILE_LINK, etc.
+
+3. What are React Hooks ?
+
+Answer: React hooks are the functions which provides different functionalities
+in React. React hooks are used to use the unique features of React. There are
+various hooks like useState, useEffect, useRef, useCallback, etc. React hooks
+are used in functional components to provide React functionalities.
+4. Why do we need useState hook ?
+
+Answer: In React, useState hook is used to declare state variable which are
+used to store the value of variables which might change over the period of the
+component lifecycle. By using the useState hook, we can store the values in
+state variable and when the values changes, the component is automatically
+rerendered and the Ui is refreshed with the upto date values. The useState
+hook is used to link the data layer with the UI layer. So the UI will be updated
+with any change in the Data.
