@@ -1,11 +1,10 @@
 {
-  "name": "episode-05",
+  "name": "episode-07",
   "version": "1.0.0",
-  "description": "This is episode 5 shubham verma",
- 
+  "description": "This is episode 7 shubham verma",
   "scripts": {
-    "start":"parcel index.html",
-    "build":"parcel build index.html",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -24,9 +23,10 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0"
   },
-  "browsersList":[
+  "browsersList": [
     "Last 2 versions"
   ]
 }

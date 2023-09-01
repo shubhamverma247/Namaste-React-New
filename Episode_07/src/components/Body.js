@@ -3,11 +3,12 @@ import resList from "../utils/mockData";
 import { useEffect, useState } from "react";
 import { API_URL } from "../utils/constants";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const Body = () => {
 
     //local state variable given by react.whenevr it updated react rerender the componet
-    
+  
     const [listofRestaurants,setlistofRestaurants] = useState([]);
     const [FilteredRestaurant,setFilteredRestaurant] = useState([]);
     const [searchText,setsearchText] = useState("Type To Search");
@@ -58,7 +59,8 @@ const Body = () => {
             <div className="res-container">
                { 
                FilteredRestaurant.map((restaurent) => (
-                <RestaunrentCard key={restaurent.info.id} resData={restaurent} />
+                <Link to={"/restaurants/"+restaurent.info.id} key={restaurent.info.id} ><RestaunrentCard  resData={restaurent} /></Link>
+                
                ))
                }
                 
