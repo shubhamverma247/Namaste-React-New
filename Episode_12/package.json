@@ -1,0 +1,34 @@
+{
+  "name": "episode-07",
+  "version": "1.0.0",
+  "description": "This is episode 7 shubham verma",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamverma247/Namaste-React-New.git#main"
+  },
+  "author": "Shubham Verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamverma247/Namaste-React-New/issues"
+  },
+  "homepage": "https://github.com/shubhamverma247/Namaste-React-New/tree/main#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "postcss": "^8.4.29",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0"
+  },
+  "browsersList": [
+    "Last 2 versions"
+  ]
+}
